@@ -1,5 +1,5 @@
 import React from "react";
-
+ 
 const TuitStats = ({tuit, likeTuit = () => {}}) => {
     return (
         <div className="row mt-2">

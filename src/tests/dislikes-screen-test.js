@@ -22,7 +22,7 @@ describe('test that the dislikes tab exists on the profile page', () => {
             <HashRouter>
                 <Profile/>
             </HashRouter>);
-
+ 
         const linkElement = screen.getByText("Dislikes");
         expect(linkElement).toBeInTheDocument();
     });

@@ -12,7 +12,7 @@ const Tuits = ({tuits = [], refreshTuits}) => {
         service.deleteTuit(tid)
             .then(refreshTuits);
 
-    return (
+    return ( 
         <div>
           <ul className="ttr-tuits list-group">
             {

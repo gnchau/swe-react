@@ -20,4 +20,4 @@ const MyLikes = () => {
         </div>
     );
 };
-export default MyLikes;
+export default MyLikes; 

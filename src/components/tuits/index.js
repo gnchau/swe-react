@@ -37,4 +37,4 @@ const Tuits = ({ tuits = [], refreshTuits }) => {
     );
 }
 
-export default Tuits;
+export default Tuits; 

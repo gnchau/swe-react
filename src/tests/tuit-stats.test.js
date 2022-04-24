@@ -15,7 +15,7 @@ test('stats render correctly', () => {
     }
 
     const likeTuit = () => {
-        act(() => {
+        act(() => { 
             stats.likes++;
             tuitStats.update(
                 <TuitStats

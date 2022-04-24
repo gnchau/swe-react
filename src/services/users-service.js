@@ -28,4 +28,4 @@ const service = {
   findAllUsers
 }
 
-export default service;
+export default service; 

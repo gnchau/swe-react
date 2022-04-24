@@ -14,7 +14,7 @@ const Tuit = ({tuit, deleteTuit, likeTuit, dislikeTuit}) => {
         const now = new Date();
         const nowMillis = now.getTime();
         const posted = new Date(tuit.postedOn);
-        const postedMillis = posted.getTime();
+        const postedMillis = posted.getTime(); 
         const oldMillis = nowMillis - postedMillis;
         let old = 0.0;
         const secondsOld = oldMillis/1000.0;

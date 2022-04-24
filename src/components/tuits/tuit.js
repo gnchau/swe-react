@@ -1,3 +1,7 @@
+/**
+ * @file Renders a tuit in the React Application
+ */
+
 import React from "react";
 import TuitStats from "./tuit-stats";
 import TuitImage from "./tuit-image";

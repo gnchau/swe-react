@@ -17,7 +17,7 @@ function Navigation() {
     {label: 'More', icon: 'fa-circle-ellipsis', path: '/more'},
     {label: 'Login', icon: 'fa-user', path: '/login'},
     {label: 'Signup', icon: 'fa-user', path: '/signup'},
-  ]
+  ] 
   return(
       <div className="ttr-navigation">
         <ul className="list-group">

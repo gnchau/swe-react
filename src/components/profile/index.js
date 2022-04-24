@@ -109,6 +109,6 @@ const Profile = () => {
           <Route path="/dislikes" element={<MyDislikes/>}/>
         </Routes>
       </div>
-  );
+  ); 
 }
 export default Profile;

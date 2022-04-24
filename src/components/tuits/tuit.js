@@ -7,7 +7,7 @@ import TuitStats from "./tuit-stats";
 import TuitImage from "./tuit-image";
 import TuitVideo from "./tuit-video";
 import {useNavigate, Link} from "react-router-dom";
-
+ 
 const Tuit = ({tuit, deleteTuit, likeTuit}) => {
     const navigate = useNavigate();
     const daysOld = (tuit) => {

@@ -9,7 +9,7 @@ import React from "react";
  * @returns displays tuit stats
  */
 const TuitStats = ({tuit, likeTuit = () => {}, dislikeTuit = () => {}}) => {
-    return (
+    return ( 
         <div className="row mt-2">
             <div className="col">
                 <i className="far fa-message me-1"></i>

@@ -17,7 +17,7 @@ const MyLikes = () => {
     return(
         <div>
             <Tuits tuits={likedTuits} refreshTuits={findLiked}/>
-        </div>
+        </div> 
     );
 };
 export default MyLikes;

@@ -12,4 +12,4 @@ test('', () => {
           stats: {}
         }} likeTuit={() => {}} deleteTuit={() => {}}/>
       </HashRouter>);
-});
+}); 

@@ -7,11 +7,16 @@ const MyTuits = () => {
     const findMyTuits = () =>
         service.findTuitByUser("my")
             .then(tuits => setTuits(tuits));
-    useEffect(findMyTuits, []);
-    return(
-        <Tuits tuits={tuits}
-               refreshTuits={findMyTuits}/>
-    );
-};
+            
+            useEffect(findMyTuits, []);
+
+            const deleteTuit = (tid) =>
+                service.deleteTuit(tid).then(findMyTuits);
+            return(
+                <Tuits tuits={tuits}
+                       deleteTuit = {deleteTuit}
+                       refreshTuits={findMyTuits}/>
+            );
+        };
 
 export default MyTuits;

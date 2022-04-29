@@ -13,7 +13,7 @@ import MyDislikes from "./my-dislikes";
 
 const Profile = () => {
   const navigate = useNavigate();
-  const location = useLocation();
+  const location = useLocation(); 
   const [profile, setProfile] = useState({});
   useEffect(async () => {
     try {
